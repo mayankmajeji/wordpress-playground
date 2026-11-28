@@ -252,9 +252,9 @@ my-bundle.zip/
 └── __MACOSX/         ← ignored
 ```
 
-<!-- If there is no `blueprint.json` at the root and the ZIP contains more than one top-level directory, Playground returns an error, even if only one of them contains a `blueprint.json`. -->
+<!-- If there is no `blueprint.json` at the root and the ZIP contains more than one top-level directory other than `__MACOSX`, Playground returns an error, even if only one of them contains a `blueprint.json`. -->
 
-अगर रूट पर `blueprint.json` नहीं है और ZIP में सबसे ऊपरी लेवल पर एक से ज़्यादा डायरेक्टरी हैं, तो Playground एक एरर लौटाता है, भले ही उनमें से सिर्फ़ एक में `blueprint.json` हो।
+अगर रूट पर `blueprint.json` नहीं है और ZIP में `__MACOSX` को छोड़कर सबसे ऊपरी लेवल पर एक से ज़्यादा डायरेक्टरी हैं, तो Playground एक एरर लौटाता है, भले ही उनमें से सिर्फ़ एक में `blueprint.json` हो।
 
 <!-- ## Troubleshooting -->
 
